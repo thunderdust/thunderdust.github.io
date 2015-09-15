@@ -1,0 +1,261 @@
+body {
+	background-color: #F9F3D8;
+	min-width: 350px;
+}
+
+.content-wrapper {
+	position: relative;
+	top: 20px;
+	background-color: #eeeeee;
+	margin: auto;
+	width: 80%;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 120px;
+}
+
+.nav-bar {
+	width: 100%;
+}
+
+.nav-bar > a {
+	text-decoration: none;
+	height: 40px;
+	width: 12%;
+	padding: 15px 2px 0 2px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1em;
+	position: relative;
+	display: inline-block;
+}
+
+.nav-bar .active, .nav-bar > a:hover{
+	text-decoration: underline;
+}
+
+.branding {
+	height: 70px;
+	background-color: #000000;
+}
+
+.branding-left {
+	float: left;
+	height: 100%;
+	display: inline-block;
+}
+
+.branding-right {
+	float: right;
+	height: 100%;
+	display: inline-block;
+}
+
+.branding > div > a {
+	height: 68px;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 2px;
+	padding-left: 20px;
+	position: relative;
+	top: 20%;
+	display: inline-block;
+}
+
+.branding > div > span {
+	color: #ffffff;
+	display: inline-block;
+	font-size:  1em;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-style: italic;
+    text-decoration: underline;
+    float: right;
+    padding: 20px 15px 5px 10px;
+}
+
+.nav-index {
+	width: 80px;
+	background-color: #fd5a43;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.nav-resume {
+	width: 80px;
+	background-color: #ffbe00;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.nav-daily {
+	width: 80px;
+	background-color: #34a853;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.nav-gallery {
+	width: 80px;
+	background-color: #1fb4da;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.nav-clock {
+	width: 80px;
+	background-color: #4d3382;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.content {
+	padding: 20px;
+}
+
+/* content-left */
+.content-left {
+	position: relative;
+	float: left;
+	width: 55%;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+} 
+
+/* content-right */
+.content-right {
+	position: relative;
+	float: right;
+	width: 40%;
+	padding: 2px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px 10px 5px;
+} 
+
+.content-right-bottom {
+	position: relative;
+	float: right;
+	width: 40%;
+	padding: 2px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px 10px 5px;
+}
+
+.content-right-bottom > img {
+	float: right;
+}
+
+.self-introduction{
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.self-introduction > p {
+	color:black;
+	font-size: 1.1em;
+	margin: 10px 5px 5px 10px;
+	font-family: 'Slabo 27px', serif;
+}
+
+.social-accounts {
+
+	padding: 20px;
+	padding-right: 60px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.social-accounts > a {
+	padding: 5px;
+	margin: 5px 10px 30px 0;
+	text-decoration: none;
+}
+
+.social-accounts a img:hover{
+	box-shadow: 2px 2px 2px grey;
+}
+
+.social-accounts > p {
+	padding-left: 7px;
+	font-style: italic;
+}
+
+.paragraph-head {
+	color: red;
+	font-style: italic;
+	font-size: 1.6em;
+	margin-right: 4px;
+}
+
+
+.copyright >p {
+	font-family: "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+
+.footer {
+	clear: both;
+	margin-top: 40px;
+	padding: 40px 10px 10px 10px;
+	background-color: #F9F3E8;
+}
+
+.footer > div {
+	text-align: center;
+	margin: auto;
+	text-decoration: underline;
+	padding: 4px 0 4px 0;
+}
+
+.row {
+	min-height: 100px;
+	background-color: white;
+	margin:auto;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.daily-pic-wrapper{
+	display: inline-block;
+	width: 50%;
+}
+
+.daily-pic-wrapper > img {
+	max-height: 300px;
+	float: center;
+}
+
+.daily-caption{
+	display: inline-block;
+	float: right;
+	padding: 20px;
+	width: 40%;
+
+}
+
+.daily-caption > div > span {
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+.daily-caption > div > p {
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-style: italic;
+	font-size: 1.2em;
+} 
+
+
+

@@ -1,0 +1,59 @@
+
+.responsive-button {
+
+    padding: 2px;
+    position: relative;
+    display: none;
+    z-index: 1;
+    left: 1px;
+    top: 1px;
+    float: left;
+}
+
+.responsive-button > img {
+    width: 60px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.responsive-button > span {
+
+    width: 60px;
+    height: 45px;
+    background-image: url('menu-toggle-icon.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.responsive-nav {
+    position: relative;
+    z-index: 99;
+    width:  120px;
+    color: white;
+    background-color: black;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 2px #a9a9a9;
+    position: relative;
+    display: none;
+}
+
+.responsive-nav-item {
+    color: white;
+    background-color: #a9a9a9;
+    padding:2px 0 0 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Slabo 27px', serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.responsive-nav-item:hover{
+    background-color: #e5e5e5;
+}
+
+.responsive-nav-item > a {
+    text-decoration: none;
+    color:white;
+}

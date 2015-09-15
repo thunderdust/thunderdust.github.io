@@ -1,0 +1,90 @@
+
+
+#contact-info {
+	background-color: white;
+	text-align: right;
+	font-size: 1em;
+	padding: 20px 20px 10px 10px;
+	margin-bottom: 15px;
+}
+
+#contact-info a, #contact-info a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#contact-info a:hover {
+	font-style: italic;
+}
+
+.resume-module {
+	background-color: white;
+	font-size: 1em;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.row-name {
+	font-size: 1.5em;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	background-color: #1fb4da;
+}
+
+.row-record{
+	color: black;
+	clear: both;
+	padding-bottom: 15px;
+}
+
+.record {
+	font-size: 1em;
+	color: black;
+	font-family: "Proxima Nova", Helvetica, Arial;
+	padding: 10px 10px 10px 20px;
+}
+
+.record > p > strong > a{
+	text-decoration: none;
+	font-style: italic;
+}
+
+.date-wrapper {
+	margin-bottom: 5px;
+	padding: 1px;
+	height: 40px;
+}
+
+.date {
+	font-family: "Trebuchet MS", Garamond, Arial;
+    font-size: 1em;
+    float: right;
+	background-color: #1fb4da;
+	color: white;
+	padding: 10px 10px 5px 10px;
+	width: 40%;
+}
+
+.date >p {
+	margin: 2px;
+}
+
+#text-view-resume {
+	padding: 10px;
+}
+
+#text-view-resume > p {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+	margin: 5px;
+}
+
+#icon-panel {
+	margin: 0 5px 0 20px;
+	padding: 5px;
+}
+
+#icon-panel > a {
+	text-decoration: none;
+	margin-right: 20px;
+}
