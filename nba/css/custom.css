@@ -1,0 +1,20 @@
+
+.jumbotron {
+	background-color: #44BBBB;
+	color: #FFFFFF;
+	padding-left: 15px;
+}
+
+.container-fluid > .col-lg-4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container-fluid > .col-lg-4 > img {
+	display: block;
+	margin: auto;
+}
+
+.navbar-nav > .img-circle {
+	margin-right: 10px;
+}
