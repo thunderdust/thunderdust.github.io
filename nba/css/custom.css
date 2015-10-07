@@ -1,8 +1,51 @@
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 275px;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.container .text-muted {
+  margin: 20px 0;
+  text-align: center;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 .jumbotron {
 	background-color: #44BBBB;
 	color: #FFFFFF;
 	padding-left: 15px;
+}
+
+.head-text {
+	width: 70%;
+	display: block;
+	float: left;
+}
+
+.head-avatar {
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
 
 .container-fluid > .col-lg-4 {
@@ -17,4 +60,32 @@
 
 .navbar-nav > .img-circle {
 	margin-right: 10px;
+}
+
+.main-icon {
+	clear:both;
+	display: block;
+	margin: auto;
+}
+
+.main-col > h2, .main-col > p {
+	text-align: center;
+}
+
+li > a > img {
+	margin: 0 5px 0 5px;
+	opacity: 0.7
+}
+
+li > a > img:hover {
+	opacity: 1;
+}
+
+li > .active > img {
+	opacity: 1;
+}
+
+.image-avatar {
+	display: inline-block;
+	float: right;
 }
