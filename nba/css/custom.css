@@ -116,7 +116,7 @@ li > .active > img {
 }
 
 .main-icon {
-	transition: all .5s ease-in-out;
+	transition: all .4s ease-in-out;
 }
 .main-icon:hover {
 	transform: scale(1.2);
@@ -126,4 +126,35 @@ li > .active > img {
 	background-color: #44BBBB;
 	color: #FFFFFF;
 	font-family: "Raleway", sans-serif;
+}
+
+.table-middle {
+	margin: 0 20px 0 20px;
+}
+
+.th-statics {
+	background-color: #44BBB9;
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+.th-statics > th {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+}
+
+.table-middle > table > tbody > tr > td {
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	vertical-align: middle;
+}
+
+.progress {
+	margin: 5px 0 5px 0;
+}
+
+.progress-bar {
+	text-align: center;
+	font-family: arial;
 }
