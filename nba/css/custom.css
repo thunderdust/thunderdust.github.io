@@ -85,6 +85,11 @@ body {
 .main-col > h2, .main-col > p {
 	text-align: center;
 	font-family: "Raleway", sans-serif;
+	margin: 15px;
+}
+
+.main-col > p {
+	font-size: 16px;
 }
 
 li > a > img {
@@ -126,6 +131,34 @@ li > .active > img {
 	background-color: #44BBBB;
 	color: #FFFFFF;
 	font-family: "Raleway", sans-serif;
+	padding-bottom: 15px;
+}
+
+.row-info > h1 {
+	text-align: center;
+	margin: 30px 0 30px 0;
+}
+
+.row-info > .tab-description > p {
+	font-size: 16px;
+	padding: 5px;
+}
+
+.tab-description {
+	border-right: 1px solid white;
+}
+
+.row-info > .tab-side > h3 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.row-info > .tab-side > ul > li > a {
+	color: #FFFFFF;
+}
+
+.row-info > .tab-side > ul > li {
+	margin: 10px 0 5px 0;
 }
 
 .table-middle {
@@ -158,3 +191,13 @@ li > .active > img {
 	text-align: center;
 	font-family: arial;
 }
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 55px solid #44BBBB;
+	margin: auto;
+}
+

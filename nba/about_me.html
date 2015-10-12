@@ -78,33 +78,82 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4 main-col">
-			    <img class="img-circle main-icon" src="img/github.png" width="150" height="150">
+			    <img class="img-circle main-icon" src="img/github.png" width="150" height="150" onclick="showTab1();">
 				<h2>Programmer</h2>
 				<p>Graduated as a Computer Science major bachelor from NUS, I am interested
 				in web front-end development, user interface design and mobile applications. Programming languages I frequently use are JAVA, HTML/CSS, Javascript, and PHP. You can check my github account at <a href="https://github.com/thunderdust" target="blank">here.</a></p>
 			</div>
 			<div class="col-lg-4 main-col">
-			    <img class="img-circle main-icon" src="img/mj.jpg" width="150" height="150">
+			    <img class="img-circle main-icon" src="img/mj.jpg" width="150" height="150" onclick="showTab2();">
 				<h2>Dancer</h2>
 				<p>I started to learn funk style dances (popping and locking) on the third year of my university. But my passion for music and dance can be traced back to the earlier days. My main style is popping and I have decided to treat it as a life-long hobby. Music is my wife and dance is how I make love with her. You can subscribe to <a href="#" target="blank">my Youtube channel.</a></p>
 			</div>
 			<div class="col-lg-4 main-col">
-			    <img class="img-circle main-icon" src="img/bball.png" width="150" height="150">
+			    <img class="img-circle main-icon" src="img/bball.png" width="150" height="150" onclick="showTab3();">
 				<h2>Hooper</h2>
 				<p>I started to play basketball when I was like 10 years old. Basketball is the one and only sport that I will always put my heart and soul in. I love watching NBA, and evaluating players (not completely) by their statics. My favorite players are <a href="https://en.wikipedia.org/wiki/Allen_Iverson" target="blank">Allen Iverson</a>, <a href="https://en.wikipedia.org/wiki/LeBron_James" target="blank">Lebron James</a> and <a href="https://en.wikipedia.org/wiki/Tracy_McGrady" target="blank">Tracy McGrady</a>.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row row-info" id="tab_1">
-			<h2>Programming Life</h2>
+	<div class="container-fluid" id="tab_holder">
+	    <div class="row">
+	        <div id="place-holder1"></div>
+	        <div class="col-lg-4 arrow-holder">
+		    	<div class="arrow-up"></div>
+	    	</div>
+	    	<div id="place-holder2"></div>
+	    </div>
+		<div class="row row-info single-tab1" id="tab_1">
+			<h1>Programming Life</h1>
+			<hr>
+			<div class="col-lg-9 tab-description">
+				<h3>Start from scratch</h3>
+				<p>Few programming background did I have when I first started to code since my pre-university bridging course. The first language I learned was C, although I spent the whole four years of university writing java code later. At first I struggled to understand how the whole programming works, so it took me quite
+				a while to acquire the ability to write a completly working program. And then debugging became another pain for me, which could comsume half or even more of my day. I have to say I am not a born programmer, and a lot of the time I would rather spend my effort on something that I am more interested in, for example, Chinese literature or basketball. However, everytime when the bugs were solved and the program is finally working, definitely I would feel the unique joy of achievements and overcoming technical problems. This kind of happiness only appeared when I was programming. So, I might not mean to be a enthusiasitc geek, but I still respect programming, because I know how great it is.</p>
+			</div>
+			<div class="col-lg-3 tab-side">
+				<h3>My projects</h3>
+				<ul>
+					<li><a href="https://github.com/thunderdust/thunderdust.github.io" target="blank">Hoop Math: NBA Statics Website</a></li>
+					<li><a href="https://github.com/chenzeyu/JustDoIt-A-Task-Manager" target="blank">JustDoIt - A Windows desktop task manager with GUI built with JAVA SWING</li>
+					<li><a href="https://github.com/liutuo/CS3213-ZOPE-HW3" target="blank">Zope: A customised backbone.js web application which allows users to comment and rank movies</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="row row-info" id="tab_2">
-			<h2>As A Dancer</h2>
+		<div class="row row-info single-tab2" id="tab_2" style="display: none;">
+			<h1>As a Dancer</h1>
+			<hr>
+			<div class="col-lg-9 tab-description">
+				<h3>Start from scratch</h3>
+				<p>Few programming background did I have when I first started to code since my pre-university bridging course. The first language I learned was C, although I spent the whole four years of university writing java code later. At first I struggled to understand how the whole programming works, so it took me quite
+				a while to acquire the ability to write a completly working program. And then debugging became another pain for me, which could comsume half or even more of my day. I have to say I am not a born programmer, and a lot of the time I would rather spend my effort on something that I am more interested in, for example, Chinese literature or basketball. However, everytime when the bugs were solved and the program is finally working, definitely I would feel the unique joy of achievements and overcoming technical problems. This kind of happiness only appeared when I was programming. So, I might not mean to be a enthusiasitc geek, but I still respect programming, because I know how great it is.</p>
+			</div>
+			<div class="col-lg-3 tab-side">
+				<h3>My projects</h3>
+				<ul>
+					<li><a href="https://github.com/thunderdust/thunderdust.github.io" target="blank">Hoop Math: NBA Statics Website</a></li>
+					<li><a href="https://github.com/chenzeyu/JustDoIt-A-Task-Manager" target="blank">JustDoIt - A Windows desktop task manager with GUI built with JAVA SWING</li>
+					<li><a href="https://github.com/liutuo/CS3213-ZOPE-HW3" target="blank">Zope: A customised backbone.js web application which allows users to comment and rank movies</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="row row-info" id="tab_3">
-			<h2>Bball For Life</h2>
+		<div class="row row-info single-tab3" id="tab_3" style="display: none;">
+			<h1>Basketball for Life</h1>
+			<hr>
+			<div class="col-lg-9 tab-description">
+				<h3>Start from scratch</h3>
+				<p>Few programming background did I have when I first started to code since my pre-university bridging course. The first language I learned was C, although I spent the whole four years of university writing java code later. At first I struggled to understand how the whole programming works, so it took me quite
+				a while to acquire the ability to write a completly working program. And then debugging became another pain for me, which could comsume half or even more of my day. I have to say I am not a born programmer, and a lot of the time I would rather spend my effort on something that I am more interested in, for example, Chinese literature or basketball. However, everytime when the bugs were solved and the program is finally working, definitely I would feel the unique joy of achievements and overcoming technical problems. This kind of happiness only appeared when I was programming. So, I might not mean to be a enthusiasitc geek, but I still respect programming, because I know how great it is.</p>
+			</div>
+			<div class="col-lg-3 tab-side">
+				<h3>My projects</h3>
+				<ul>
+					<li><a href="https://github.com/thunderdust/thunderdust.github.io" target="blank">Hoop Math: NBA Statics Website</a></li>
+					<li><a href="https://github.com/chenzeyu/JustDoIt-A-Task-Manager" target="blank">JustDoIt - A Windows desktop task manager with GUI built with JAVA SWING</li>
+					<li><a href="https://github.com/liutuo/CS3213-ZOPE-HW3" target="blank">Zope: A customised backbone.js web application which allows users to comment and rank movies</a></li>
+				</ul>
+			</div>
 		</div>
 		</div>
 	</div>
@@ -116,3 +165,127 @@
 	</footer>
 </body>
 </html>
+
+<script type="text/javascript">
+
+	function showTab1() {
+		/*
+		var tab_programming = document.getElementById('tab_1');
+		var tab_dance = document.getElementById('tab_2');
+		var tab_hoop = document.getElementById('tab_3');
+		tab_dance.style.display = 'none';
+		tab_hoop.style.display = 'none';
+		//tab_programming.style.display = 'block';
+		tab_programming.fadeIn();
+		*/
+
+		if ($('#tab_2').css('display')!='none'){
+			$('#tab_2').fadeOut('slow', function(){
+				$('.single-tab1').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass();
+				$('#place-holder2').removeClass().addClass('col-lg-8');
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		else if ($('#tab_3').css('display')!='none'){
+			$('#tab_3').fadeOut('slow', function(){
+				$('.single-tab1').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass();
+				$('#place-holder2').removeClass().addClass('col-lg-8');
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		else {
+			$('.single-tab1').fadeIn();
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass();
+				$('#place-holder2').removeClass().addClass('col-lg-8');
+				$('.arrow-holder').fadeIn();
+			});
+		}
+	}
+
+	function showTab2() {
+		/*
+		var tab_programming = document.getElementById('tab_1');
+		var tab_dance = document.getElementById('tab_2');
+		var tab_hoop = document.getElementById('tab_3');
+		tab_programming.style.display = 'none';
+		tab_hoop.style.display = 'none';
+		tab_dance.style.display = 'block';
+		*/
+
+		if ($('#tab_1').css('display')!='none'){
+			$('#tab_1').fadeOut('slow', function(){
+				$('#tab_2').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass().addClass('col-lg-4');
+				$('#place-holder2').removeClass().addClass('col-lg-4');
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		else if ($('.single-tab3').css('display')!='none'){
+			$('#tab_3').fadeOut('slow', function(){
+				$('#tab_2').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass().addClass('col-lg-4');
+				$('#place-holder2').removeClass().addClass('col-lg-4');
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		else $('#tab_2').fadeIn();
+		$('.arrow-holder').fadeOut('slow', function(){
+			$('#place-holder1').removeClass().addClass('col-lg-4');
+			$('#place-holder2').removeClass().addClass('col-lg-4');
+			$('.arrow-holder').fadeIn();
+		});
+	}
+
+	function showTab3() {
+		/*
+		var tab_programming = document.getElementById('tab_1');
+		var tab_dance = document.getElementById('tab_2');
+		var tab_hoop = document.getElementById('tab_3');
+		tab_programming.style.display = 'none';
+		tab_dance.style.display = 'none';
+		tab_hoop.style.display = 'block';
+		*/
+
+		if ($('#tab_1').css('display')!='none'){
+			$('#tab_1').fadeOut('slow', function(){
+				$('.single-tab3').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass().addClass('col-lg-8');
+				$('#place-holder2').removeClass();
+				$('.arrow-holder').fadeIn();
+			});
+
+		}
+		else if ($('#tab_2').css('display')!='none'){
+			$('#tab_2').fadeOut('slow', function(){
+				$('.single-tab3').fadeIn();
+			});
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass().addClass('col-lg-8');
+				$('#place-holder2').removeClass();
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		else { 
+			$('.single-tab3').fadeIn();
+			$('.arrow-holder').fadeOut('slow', function(){
+				$('#place-holder1').removeClass().addClass('col-lg-8');
+				$('#place-holder2').removeClass();
+				$('.arrow-holder').fadeIn();
+			});
+		}
+		
+	}
+</script>
