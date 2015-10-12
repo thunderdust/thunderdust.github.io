@@ -11,6 +11,8 @@ body {
 
 .navbar {
 	margin-bottom: 0;
+	border-radius: 0;
+	border-bottom: 2px solid #FFFFFF;
 }
 
 .navbar-brand {
@@ -199,5 +201,19 @@ li > .active > img {
 	border-right: 30px solid transparent;
 	border-bottom: 55px solid #44BBBB;
 	margin: auto;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 55px solid #44BBBB;
+	margin: auto;
+}
+
+.tab-description > p > a {
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 
