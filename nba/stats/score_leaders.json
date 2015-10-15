@@ -1,0 +1,75 @@
+{ "score_leaders":{
+	"data": [ 
+	  {
+	  	"index": 1,
+	  	"name": "Kareem Abdul-Jabbar",
+	  	"team": "Milwaukee Bucks | Los Angeles Lakers",
+	  	"score":38387,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 2,
+	  	"name": "Karl Malone",
+	  	"team": "Utah Jazz",
+	  	"score": 36928,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 3,
+	  	"name": "Kobe Bryant",
+	  	"team": "Los Angeles Lakers",
+	  	"score": 32482,
+	  	"status": "active"
+	  },
+	  {
+	  	"index": 4,
+	  	"name": "Michael Jordan",
+	  	"team": "Chicago Bulls",
+	  	"score": 32292,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 5,
+	  	"name": "Wilt Chamberlain",
+	  	"team": "Philadelphia 76ers | Los Angeles Lakers",
+	  	"score": 31419,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 6,
+	  	"name": "Shaquille O'Neal",
+	  	"team": "Orlando Magic | Los Angeles Lakers | Miami Heats | Phoenix Suns | Cleveland Caveliers | Boston Celtics",
+	  	"score": 28596,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 7,
+	  	"name": "Dirk Nowitzki",
+	  	"team": "Phoenix Suns | Dallas Mavericks",
+	  	"score": 28119,
+	  	"status": "active"
+	  },
+	  {
+	  	"index": 8,
+	  	"name": "Moses Malone",
+	  	"team": "Houston Rockets | Philadelphia 76ers |	Washington Bullets | Atlanta Hawks | Milwaukee Bucks | Philadelphia 76ers | San Antonio Spurs",
+	  	"score": 27409,
+	    "status": "active"
+	  },
+	  {
+	  	"index": 9,
+	  	"name": "Elvin Hayes",
+	  	"team": "Houston Rockets | Washington Wizards",
+	  	"score": 27313,
+	  	"status": "retired"
+	  },
+	  {
+	  	"index": 10,
+	  	"name": "Hakeem Olajuwon",
+	  	"team": "Houston Rockets | Toranto Raptors",
+	  	"score": 27313,
+	  	"status": "retired"
+	  }
+	]
+  }
+}
