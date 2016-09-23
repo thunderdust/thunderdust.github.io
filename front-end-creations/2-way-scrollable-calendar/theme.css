@@ -1,0 +1,155 @@
+.mobile-talk-message-panel-calendar-container {
+	height: 300px;
+	width: 414px;
+	background-color: #BDBDBD;
+	padding: 5px;
+}
+
+.mobile-talk-message-panel-calendar-panel {
+    height: 300px;
+    width: 414px;
+	text-align: left;
+	background-color: #ffffff;
+	align-items: stretch;
+}
+
+
+.mobile-talk-message-panel-calendar-participant-switcher {
+	width: 50px;
+	height: 300px;
+	border-right: 1px solid grey;
+	display: inline-block;
+	margin-right:  -5px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.mobile-talk-message-panel-calendar-participant-switcher-item {
+	padding: 2px;
+	margin: 6px 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.mobile-talk-message-panel-calendar-participant-switcher-item:hover, .mobile-talk-message-panel-calendar-participant-switcher-item-selected  {
+	background-color: #00bcd4;
+	color: #ffffff;
+}
+
+.mobile-talk-message-panel-calendar-participant-switcher-item-avatar-image {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+
+.mobile-talk-message-panel-calendar-wrap {
+	width: 360px;
+	height: 293px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.mobile-talk-message-panel-calendar-wrap table {
+	table-layout: fixed;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.mobile-talk-message-panel-calendar-wrap table td {
+	border: 1px solid #000000;
+	word-wrap: break-word;
+	text-align: center;
+	font-size: 12px;
+}
+
+.mobile-talk-message-panel-calendar-cross-place-holder {
+	width: 43px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: red;
+	display: none;
+}
+
+/****** days table styles ******/
+
+.mobile-talk-message-panel-calendar-table-days-container {
+	width: 316px;
+	height: 33px;
+	position: relative;
+	top: 0;
+	left: 43px;
+	overflow: hidden;
+	border-left: 1px solid #000000;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.mobile-talk-message-panel-calendar-table-days-wrap {
+	overflow: auto;
+}
+
+.mobile-talk-message-panel-calendar-table-days-wrap table {
+	width: 100%;
+}
+
+.mobile-talk-message-panel-calendar-table-days-wrap table td {
+	width: 80px;
+	height: 30px;
+}
+
+
+/****** hours table styles ******/
+
+.mobile-talk-message-panel-calendar-table-hours-container {
+	width: 44px;
+	height: 265px;
+	display: inline-block;
+	position: relative;
+	left: 0;
+	top: -3px;
+	overflow: hidden;
+}
+
+.mobile-talk-message-panel-calendar-table-hours-wrap {
+	overflow: auto;
+	height: 100%;
+	width: 61px;
+}
+
+.mobile-talk-message-panel-calendar-table-hours-wrap table td {
+	width: 40px;
+	height: 30px;
+}
+
+/****** events table styles ******/
+
+.mobile-talk-message-panel-calendar-table-event-container {
+	display: inline-block;
+	width: 311px;
+	height: 265px;
+	position: relative;
+	left: -5px;
+	top: -3px;
+	overflow: hidden;
+}
+
+.mobile-talk-message-panel-calendar-table-event-wrap {
+	overflow: auto;
+	height: 280px;
+	width: 332px;
+}
+
+.mobile-talk-message-panel-calendar-table-event-wrap table {
+	width: 100%;
+	height: 100%;
+}
+
+.mobile-talk-message-panel-calendar-table-event-wrap table td {
+	width: 80px;
+	height: 30px;
+}
+
+
