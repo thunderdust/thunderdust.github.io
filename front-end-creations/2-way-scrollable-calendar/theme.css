@@ -2,7 +2,7 @@
 	height: 300px;
 	width: 414px;
 	background-color: #BDBDBD;
-	padding: 5px;
+	padding: 2px;
 }
 
 .mobile-talk-message-panel-calendar-panel {
@@ -17,11 +17,12 @@
 .mobile-talk-message-panel-calendar-participant-switcher {
 	width: 50px;
 	height: 300px;
-	border-right: 1px solid grey;
 	display: inline-block;
 	margin-right:  -5px;
+	border-right: 1px solid #eeeeee;
 	border-spacing: 0;
 	border-collapse: collapse;
+	position: fixed;
 }
 
 .mobile-talk-message-panel-calendar-participant-switcher-item {
@@ -34,6 +35,10 @@
 .mobile-talk-message-panel-calendar-participant-switcher-item:hover, .mobile-talk-message-panel-calendar-participant-switcher-item-selected  {
 	background-color: #00bcd4;
 	color: #ffffff;
+	padding: 2px;
+	margin: 6px 0px;
+	font-size: 12px;
+	text-align: center;
 }
 
 .mobile-talk-message-panel-calendar-participant-switcher-item-avatar-image {
@@ -43,10 +48,12 @@
 }
 
 .mobile-talk-message-panel-calendar-wrap {
-	width: 360px;
+	width: 370px;
 	height: 293px;
 	display: inline-block;
 	overflow: hidden;
+	position: fixed;
+	left: 60px;
 }
 
 .mobile-talk-message-panel-calendar-wrap table {
@@ -56,10 +63,13 @@
 }
 
 .mobile-talk-message-panel-calendar-wrap table td {
-	border: 1px solid #000000;
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
 	word-wrap: break-word;
 	text-align: center;
 	font-size: 12px;
+	color: #7f7f7f;
+	font-family: sans-serif;
 }
 
 .mobile-talk-message-panel-calendar-cross-place-holder {
@@ -82,9 +92,6 @@
 	top: 0;
 	left: 43px;
 	overflow: hidden;
-	border-left: 1px solid #000000;
-	border-spacing: 0;
-	border-collapse: collapse;
 }
 
 .mobile-talk-message-panel-calendar-table-days-wrap {
@@ -96,7 +103,7 @@
 }
 
 .mobile-talk-message-panel-calendar-table-days-wrap table td {
-	width: 80px;
+	width: 120px;
 	height: 30px;
 }
 
@@ -120,15 +127,17 @@
 }
 
 .mobile-talk-message-panel-calendar-table-hours-wrap table td {
-	width: 40px;
-	height: 30px;
+	width: 50px;
+	height: 60px;
+	vertical-align: text-top;
+	padding-top: 5px;
 }
 
 /****** events table styles ******/
 
 .mobile-talk-message-panel-calendar-table-event-container {
 	display: inline-block;
-	width: 311px;
+	width: 320px;
 	height: 265px;
 	position: relative;
 	left: -5px;
@@ -139,7 +148,7 @@
 .mobile-talk-message-panel-calendar-table-event-wrap {
 	overflow: auto;
 	height: 280px;
-	width: 332px;
+	width: 340px;
 }
 
 .mobile-talk-message-panel-calendar-table-event-wrap table {
@@ -148,8 +157,28 @@
 }
 
 .mobile-talk-message-panel-calendar-table-event-wrap table td {
-	width: 80px;
-	height: 30px;
+	width: 120px;
+	height: 60px;
+	color: #333333;
+	font-family: monospace;
+}
+
+.mobile-talk-message-panel-calendar-event-panel-item-content {
+	border-radius: 4px;
+	background-color: #f0f1f2;
+	height: 100%;
+	padding: 4px;
+}
+
+.mobile-talk-message-panel-calendar-event-panel-item-content-active {
+	background-color: #4285F4;
+	color: #ffffff;
+	height: 100%;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.mobile-talk-message-panel-calendar-table-event-wrap table td:last-child {
 }
 
 
