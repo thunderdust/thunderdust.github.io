@@ -1,8 +1,12 @@
 # personal-website
 
-This is a practice project for training 
-<HTML>
-<Javascript>
-<CSS>
-<JQuery>
-as well as <git>
+## Motivation
+This is a practice project for training techniques such as javascript, css, html etc. 
+
+It is also a playground to demo myself as a programmer.
+
+## Link
+thunderdust.github.io 
+
+## Author 
+Weiran Liu (thunderdust)
